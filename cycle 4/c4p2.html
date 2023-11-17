@@ -1,0 +1,45 @@
+<!-- C4pg2
+    Akshay
+    23mca010
+    Date: 27/10/2023-->
+<html>
+<head>
+<style>
+h2 {
+font-size : 30px;
+color : green;
+font-weight : bold;
+text-decoration : underline;
+}
+</style>
+
+<script>
+function myFunction() {
+var x = document.getElementById("x").value;
+var y = document.getElementById("y").value;
+document.getElementById("z").innerHTML = "sum: " + ((parseInt (x)) + (parseInt (y)));
+}
+
+</script>
+</head>
+<body>
+<center>
+<h2>Addition of 2 numbers</h2>
+<br>
+<br>
+<label>
+enter the value of first number</label>
+<input type="text" id="x"></input><br><br><br>
+<label>
+enter the value of second number
+</label>
+<input type="text" id="y"></input>
+<br>
+<br>
+<br>
+<button type="button" onClick="myFunction()">Sum</button>
+<br>
+<p id="z"></p>
+</center>
+</body>
+</html>
